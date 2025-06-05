@@ -2,7 +2,7 @@
 
 **MCP 极简客户端示例 | Minimal MCP Client Example**  
 
-🚀 这是一个使用 Model Context Protocol 客户端调用大语言模型的极简实现示例。  
+🚀 这是一个使用 Model Context Protocol 客户端帮助大模型获取外部数据的极简实现示例。  
 🚀 This is a minimal implementation example of invoking large language models using the Model Context Protocol client.  
 
 💡 旨在帮助开发者快速理解 MCP 的核心机制与调用流程。  
