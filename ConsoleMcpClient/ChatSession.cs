@@ -28,7 +28,7 @@ public class ChatSession(IConfiguration configuration)
             {
                 string? toolName = toolNameValue!.ToString();
 
-                var arguments = JsonSerializer.Deserialize<Dictionary<string, object?>>(value!.ToString());
+                var arguments = JsonSerializer.Deserialize<Dictionary<string, object?>>(value!.ToString()!);
 
                 var tools = await ListToolsAsync();
 
